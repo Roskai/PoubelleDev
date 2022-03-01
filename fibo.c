@@ -14,7 +14,7 @@ int main()
       nbr1 = nbr2;
       nbr2 = suivant;
     }
-    printf("%d\n", suivant);
+    printf("%llu\n", suivant);
   }
 
   return 0;
