@@ -1,14 +1,9 @@
 #include <stdio.h>
-
-long Fibonacci( unsigned long n){
-}
-
-
 int main()
 {
   printf("Les premiers termes de la série de Fibonacci sont:\n");
 
-  unsigned long nbr1 = 0, nbr2 = 1, suivant, i, n = 100;
+  unsigned long long nbr1 = 0, nbr2 = 1, suivant, i, n = 100;
   for (i = 0; i < n; i++)
   {
     if (i <= 1)
